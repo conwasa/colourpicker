@@ -107,6 +107,13 @@ input[type='text']:before {
   font-weight: bold;
   text-transform: uppercase;
 }
+footer {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #4c4066;
+  position: absolute;
+  width: 100%;
+}
+
   @media (max-width: 1000px) { /* smaller than tablet */ 
   .preview {
   height: 70px;
@@ -128,6 +135,10 @@ button {
   border: none;
   font-size: 3em;
 }
+footer {
+  margin-top: 20px;
+}
+
 }
 .color-code {
   padding: 10px;
@@ -138,12 +149,6 @@ button {
   font-weight: bold;
 }
 
-footer {
-  padding-bottom: 10px;
-  border-bottom: 5px solid #4c4066;
-  position: absolute;
-  width: 100%;
-}
 
 footer #content {
   width: 1040px;
