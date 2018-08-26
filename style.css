@@ -121,10 +121,6 @@ input[type='text'] {
 #container {
   margin-left: 8%;
 }
-#colors .item {
-  height: 100px;
-  width:  100px;
-}
 button {
   padding: 20px;
   margin: 20px;
